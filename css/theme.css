@@ -1,0 +1,427 @@
+/* - - - - - - - - ALL - - - - - - - - */
+*
+{
+	margin: 		0px;
+	padding: 		0px;
+	font-family: 	"Calibri", "Arial", serif;
+	font-size: 		1em;
+}
+
+/* - - - - - - - - BANNER - - - - - - - - */
+/* IMAGE */
+#head
+{
+	width: 				100%;
+	height: 			172px;
+
+	background-image: 	url( "../contents/images/header.png" );
+}
+/* LOGO */
+#head-logo
+{
+	position: 			absolute;
+	top:				90px;
+	left:				10px;
+
+	width: 				203px;
+	height: 			76px;
+
+	background-image: 	url( "../contents/images/logo_suaps.png" );
+	background-repeat: 	no-repeat;
+}
+
+/* - - - - - - - - MENU - - - - - - - - */
+/* NAVBAR */
+ul#horizontal_navbar
+{
+	width: 				100%;
+	height: 			50px;
+
+	list-style-type: 	none;
+	overflow: 			hidden;
+
+	background-image: 	-webkit-linear-gradient( 	#9DCAE5, #7598A5 );
+	background-image: 	-o-linear-gradient( 		#9DCAE5, #7598A5 );
+	background-image: 	-moz-linear-gradient( 		#9DCAE5, #7598A5 );
+	background-image: 	linear-gradient( 			#9DCAE5, #7598A5 );
+
+	z-index: 			1000;
+	box-shadow: 		0px 2px 2px 1px rgba( 0, 0, 0, 0.5 );
+}
+ul#horizontal_navbar li
+{
+	float: left;
+}
+ul#horizontal_navbar li a
+{
+	display: 		block;
+	text-align: 	center;
+	padding: 		21px;
+	line-height: 	7px;
+
+	font-size: 			18px;
+	font-weight: 		bold;
+	color:				#010101;
+	text-decoration: 	none;
+}
+ul#horizontal_navbar li a:hover
+{
+	background-image: 	-webkit-radial-gradient( 	#7B9EB2, #485D66 );
+	background-image: 	-o-radial-gradient( 		#7B9EB2, #485D66 );
+	background-image: 	-moz-radial-gradient( 		#7B9EB2, #485D66 );
+	background-image: 	radial-gradient( 			#7B9EB2, #485D66 );
+	color:				#FEFEFE;
+	box-shadow: 		0px 0px 2px 1px rgba( 0, 0, 0, 0.5 ) inset;
+}
+
+/* - - - - - - - - MAIN - - - - - - - - */
+/* MAIN PAGE */
+#main
+{
+	width: 	100%;
+	height: 1000px;
+
+    z-index:			-1;
+    position: 			absolute;
+	background-image: 	url( "../contents/images/background2-repeat.jpg" );
+	background-repeat: 	repeat;
+}
+
+li#title
+{
+	background-image: 	-webkit-radial-gradient( 	#2BE9B7, #66D584 );
+	background-image: 	-o-radial-gradient( 		#2BE9B7, #66D584 );
+	background-image: 	-moz-radial-gradient( 		#2BE9B7, #66D584 );
+	background-image: 	radial-gradient( 			#2BE9B7, #66D584 );
+	color:				#FEFEFE;
+	box-shadow: 		0px 0px 2px 1px rgba( 0, 0, 0, 0.5 ) inset;
+
+	padding-top: 		5px;
+	padding-bottom:		5px;
+	display: 			block;
+	font-size: 			18px;
+	font-weight: 		bold;
+	color:				#010101;
+}
+
+/* NAVBAR */
+#vertical_navbar_holder
+{
+	float:				left;
+	position: 			fixed;
+	text-align: 		center;
+	margin: 			0;
+	padding: 			0;
+	left:				10px;
+	top:				232px;
+	width: 				170px;
+	z-index: 			1;
+
+	list-style-type: 	none;
+	text-decoration: 	none;
+}
+
+/* MENU */
+ul#vertical_navbar_userinfos
+{
+	margin-bottom: 		10px;
+	background-color: 	#f1f1f1;
+
+	background-image: 	-webkit-linear-gradient( 	#9DCAE5, #7598A5 );
+	background-image: 	-o-linear-gradient( 		#9DCAE5, #7598A5 );
+	background-image: 	-moz-linear-gradient( 		#9DCAE5, #7598A5 );
+	background-image: 	linear-gradient( 			#9DCAE5, #7598A5 );
+
+	box-shadow: 		0px 2px 2px 1px rgba( 0, 0, 0, 0.5 );
+}
+ul#vertical_navbar_userinfos li
+{
+	display: 			block;
+	padding-left: 		5px;
+	text-align: 		left;
+}
+ul#vertical_navbar_userinfos li#title
+{
+	text-align: 		center;
+}
+
+ul#vertical_navbar
+{
+	list-style-type: 	none;
+	margin: 			0;
+	padding: 			0;
+	margin-bottom: 		10px;
+
+	background-color: 	#f1f1f1;
+
+	background-image: 	-webkit-linear-gradient( 	#9DCAE5, #7598A5 );
+	background-image: 	-o-linear-gradient( 		#9DCAE5, #7598A5 );
+	background-image: 	-moz-linear-gradient( 		#9DCAE5, #7598A5 );
+	background-image: 	linear-gradient( 			#9DCAE5, #7598A5 );
+
+	box-shadow: 		0px 2px 2px 1px rgba( 0, 0, 0, 0.5 );
+}
+ul#vertical_navbar li a
+{
+	display: 			block;
+	padding: 			15px 20px;
+	text-align: 		center;
+
+	font-size: 			18px;
+	font-weight: 		bold;
+	color:				#010101;
+	text-decoration: 	none;
+}
+ul#vertical_navbar li a:hover
+{
+	background-image: 	-webkit-radial-gradient( 	#7B9EB2, #485D66 );
+	background-image: 	-o-radial-gradient( 		#7B9EB2, #485D66 );
+	background-image: 	-moz-radial-gradient( 		#7B9EB2, #485D66 );
+	background-image: 	radial-gradient( 			#7B9EB2, #485D66 );
+	color:				#FEFEFE;
+	box-shadow: 		0px 0px 2px 1px rgba( 0, 0, 0, 0.5 ) inset;
+}
+
+/* ADMIN */
+ul#vertical_navbar_admin
+{
+	list-style-type: 	none;
+	margin: 			0;
+	padding: 			0;
+
+	background-color: 	#f1f1f1;
+
+	background-image: 	-webkit-linear-gradient( 	#9DCAE5, #7598A5 );
+	background-image: 	-o-linear-gradient( 		#9DCAE5, #7598A5 );
+	background-image: 	-moz-linear-gradient( 		#9DCAE5, #7598A5 );
+	background-image: 	linear-gradient( 			#9DCAE5, #7598A5 );
+
+	box-shadow: 		0px 2px 2px 1px rgba( 0, 0, 0, 0.5 );
+}
+ul#vertical_navbar_admin li
+{
+	display: 	block
+	padding: 	5px;
+	text-align: left;
+}
+ul#vertical_navbar_admin li#title
+{
+	text-align: center;
+}
+
+/* TABLE */
+#table_holder
+{
+	position: 		relative;
+	padding-left: 	200px;
+	padding-right: 	20px;
+	padding-top: 	10px;
+}
+table#table
+{
+	width:	100%;
+	border-collapse: collapse;
+}
+table#table tr th
+{
+	text-transform: uppercase;
+}
+table#table tr td, tr th
+{
+	border: 		medium solid #000;
+	padding:		5px;
+	height: 		20px;
+	width: 			20%;
+	text-align: 	center;
+	vertical-align: center;
+	font-size: 		24px;
+}
+td#table
+{
+	border: 		medium solid #000;
+	width: 			250px;
+	height: 		20px;
+	text-align: 	center;
+	vertical-align: center;
+}
+
+td img
+{
+    display: 		block;
+    margin-left: 	auto;
+    margin-right: 	auto;
+}
+tr#weekend
+{
+	background: #A9A9A9
+}
+td#yourself
+{
+	background-color: #A6E22E;
+}
+td#yourselfweekend
+{
+	background-color: #7BA823;
+}
+
+.error-message
+{
+	padding: 7px 10px;
+	background: #fff1f2;
+	border: #ffd5da 1px solid;
+	color: #d6001c;
+	border-radius: 4px;
+}
+.success-message
+{
+	padding: 7px 10px;
+	background: #cae0c4;
+	border: #c3d0b5 1px solid;
+	color: #027506;
+	border-radius: 4px;
+}
+.demo-table
+{
+	background: #d9eeff;
+	width: 100%;
+	border-spacing: initial;
+	margin: 2px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: #333;
+	border-radius: 4px;
+	padding: 20px 40px;
+}
+.demo-table td
+{
+	padding: 15px 0px;
+}
+.demoInputBox
+{
+	padding: 10px 30px;
+	border: #a9a9a9 1px solid;
+	border-radius: 4px;
+}
+.btnRegister
+{
+	padding: 10px 30px;
+	background-color: #3367b2;
+	border: 0;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+#ContactForm
+{
+	padding:0 0 0 10px;
+	margin-top:-4px
+}
+#ContactForm span
+{
+	width:114px;
+	float:left;
+	line-height:28px
+}
+#ContactForm .wrapper
+{
+	min-height:30px
+}
+#ContactForm .textarea_box
+{
+	width:100%;
+	overflow:hidden;
+	min-height:274px
+}
+#ContactForm
+{
+}
+#ContactForm
+{
+}
+#ContactForm a
+{
+	margin-right:10px;
+	float:left;
+	margin-top:5px
+}
+#ContactForm .input
+{
+	width:767px;
+	height:16px;
+	border:1px solid #d7d7d7;
+	background:#fff;
+	padding:5px;
+	color:#000;
+	font:14px Arial, Helvetica, sans-serif
+}
+#ContactForm textarea
+{
+	overflow:auto;
+	margin:0;
+	width:767px;
+	height:257px;
+	border:1px solid #d7d7d7;
+	background:#fff;
+	padding:5px;
+	color:#000;
+	font:14px Arial, Helvetica, sans-serif
+}
+#content
+{
+	overflow : auto;
+	text-align : center;
+}
+
+
+#fade
+{
+	/*--Masque opaque noir de fond--*/
+	display: 	none; /*--masqué par défaut--*/
+	background: #000;
+	position: 	fixed;
+	left: 		0;
+	top: 		0;
+	width: 		100%;
+	height: 	100%;
+	opacity: 	.80;
+	z-index: 	9999;
+}
+.popup_block
+{
+	display: 			none; /*--masqué par défaut--*/
+	background: 		#fff;
+	padding: 			20px;
+	border: 			20px solid #ddd;
+	float: 				left;
+	font-size: 			1.2em;
+	position: 			fixed;
+	top: 				50%;
+	left: 				50%;
+	z-index: 			99999;
+
+	/*--Les différentes définitions de Box Shadow en CSS3--*/
+	-webkit-box-shadow: 0px 0px 10px #000;
+	-moz-box-shadow: 	0px 0px 10px #000;
+	box-shadow: 		0px 0px 10px #000;
+
+	/*--Coins arrondis en CSS3--*/
+	-webkit-border-radius: 	5px;
+	-moz-border-radius: 	5px;
+	border-radius: 			5px;
+}
+img.btn_close
+{
+	float: right;
+	margin: -55px -55px 0 0;
+}
+/*--Gérer la position fixed pour IE6--*/
+*html #fade
+{
+	position: absolute;
+}
+*html .popup_block
+{
+	position: absolute;
+}
